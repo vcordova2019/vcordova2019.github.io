@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&family=Zilla+Slab:wght@500&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Tinos', serif;
+font-family: 'Zilla Slab', serif; */
+body{
+    background-color: #06163A;
+    color: #FDFDFD;
+    margin: 0;
+    min-width: 480px;
+}
+nav, footer{
+    background-color: #2E4272;
+    color: #000001;
+    width: 100vw;
+    margin:auto;
+    font-family: 'Zilla Slab', serif;
+    text-align: center;
+}
+
+footer{
+    padding: 1vw;
+}
+
+ul{
+    margin: 0 auto;
+    padding: 0;
+    display: inline;
+
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin: 0 1vw;
+    padding: 1vw;
+}
+li a{
+    text-decoration: none;
+    color: #000001;
+}
+a{
+
+    text-decoration: none;
+    color: #7787AA;
+}
+header{
+    font-family: 'Zilla Slab', serif;
+    font-size: 150%;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+article{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 150%;
+}
+article p{
+    padding: 1% 5%;
+}
+b{
+    text-decoration: underline;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+#logo{
+    font-size: 125%;
+    font-weight: 600;
+}
+.title{
+    font-family:  'Zilla Slab', serif;
+    font-size: 140%;
+    font-weight: 600;
+    letter-spacing: 0.15em
+}
+
+/* media queries that are not fully implemented */
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    body{
+        font-size: 125%;
+    }
+    
+}
+
+@media screen and (min-width: 1025px){
+    body{
+        font-size: 125%;
+    }
+    section{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
